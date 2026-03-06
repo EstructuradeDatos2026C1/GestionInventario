@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.Scanner;
+
+/**
+ * Taller 5: Gestión de Inventario (Lista Enlazada Simple)
+ * Ordenamiento mediante reasignación de punteros y persistencia CSV.
+ * Referencia: Goodrich et al. (2014). Data Structures and Algorithms in Java.
+ */
+class Producto {
+    int id;
+    String nombre;
+    double precio;
+
+    public Producto(int id, String nombre, double precio) {
+        this.id = id;
+        this.nombre = nombre;
+        this.precio = precio;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("ID: %d | Nombre: %-15s | Precio: $%.2f", id, nombre, precio);
+    }
+}
