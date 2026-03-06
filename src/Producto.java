@@ -1,5 +1,5 @@
-import java.io.*;
-import java.util.Scanner;
+// import java.io.*;
+// import java.util.Scanner;
 
 /**
  * Taller 5: Gestión de Inventario (Lista Enlazada Simple)
